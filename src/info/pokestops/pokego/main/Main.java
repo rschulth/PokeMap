@@ -93,7 +93,7 @@ public class Main {
 		log("Scanning " + city);
 		
 		Main.city = city;
-		Main.dir = "C:/Users/Joey/Desktop/Locations/" + city + "/";
+		Main.dir = "C:/Users/***/Desktop/Locations/" + city + "/";
 		maxNoLocs = type.getMaxNoLocations();
 		refreshLocs = type.getRefreshLocations();
 		
